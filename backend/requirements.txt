@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+alembic
+python-multipart
+pytest
+pillow
+pytesseract
+sentence-transformers
+numpy
+scikit-learn
+pdf2image

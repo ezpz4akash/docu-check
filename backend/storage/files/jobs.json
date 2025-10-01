@@ -1,0 +1,382 @@
+{
+  "a2538404a82d4d07aef04cb41d2364fc": {
+    "id": "a2538404a82d4d07aef04cb41d2364fc",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission",
+      "file_path": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\w2_sample.jpg"
+    },
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample.jpg",
+          "type": "W2",
+          "confidence": 1.0,
+          "reasons": [
+            "form w-2",
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social secur 758-58-5787 b Employer identification number (EIN) number Sate, ine ~ file OMB No. 1545-0008 FAST! Use 1 Wages, tips, other compensation Vail the AS wabatte all writs. govietio 2 Federal income tax withheld resrreres a. c Employer's name, address, and ZIP code 3 Social security wages 4 Social security tax withheld DesignNext 0000.00 4960.00 Katham Dorbosto, Kashiani, Gopa..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2"
+        ],
+        "file_count": 1
+      }
+    }
+  },
+  "fb4a8474b241446fbb22185f96470375": {
+    "id": "fb4a8474b241446fbb22185f96470375",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission",
+      "file_path": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\Wallpaper.jpg"
+    },
+    "results": {
+      "found": [
+        {
+          "file": "Wallpaper.jpg",
+          "type": "W2",
+          "confidence": 0.0,
+          "reasons": [],
+          "snippet": "Identity Matrix"
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2"
+        ],
+        "file_count": 1
+      }
+    }
+  },
+  "35f69b2ec2ff4242a1c7fcb38f13eb65": {
+    "id": "35f69b2ec2ff4242a1c7fcb38f13eb65",
+    "status": "FAILED",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission",
+      "file_path": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\w2_sample_pdf.pdf"
+    },
+    "error": "Unable to get page count. Is poppler installed and in PATH?"
+  },
+  "823bda373d42456781b3c4008debf46d": {
+    "id": "823bda373d42456781b3c4008debf46d",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission",
+      "file_path": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\w2_sample_pdf.pdf"
+    },
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample_pdf.pdf:page:1",
+          "type": "W2",
+          "confidence": 0.667,
+          "reasons": [
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social security number This information is being furnished to the Internal Revenue Service. If you are required to file a tax return, a negigs ence penalty or other sanction OMB No. 1545-0008 may be imposed on you if this pone te taxable and you fail to report it. b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld c Employer's name, ..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2"
+        ],
+        "file_count": 1
+      }
+    }
+  },
+  "fc371c7888aa4dae8d1620e028a3b42e": {
+    "id": "fc371c7888aa4dae8d1620e028a3b42e",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission",
+      "file_path": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\w2_sample_pdf.pdf"
+    },
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample_pdf.pdf:page:1",
+          "type": "W2",
+          "confidence": 0.722,
+          "reasons": [
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social security number This information is being furnished to the Internal Revenue Service. If you are required to file a tax return, a negigs ence penalty or other sanction OMB No. 1545-0008 may be imposed on you if this pone te taxable and you fail to report it. b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld c Employer's name, ..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2"
+        ],
+        "file_count": 1,
+        "counts": {
+          "W2": 1
+        }
+      }
+    }
+  },
+  "dc04cf64d7ce468ca290ddf816831ff9": {
+    "id": "dc04cf64d7ce468ca290ddf816831ff9",
+    "status": "FAILED",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission",
+      "file_path": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\w2_sample_pdf.zip"
+    },
+    "error": "cannot identify image file 'C:\\\\Users\\\\akash\\\\Desktop\\\\DocuCheck-POC\\\\backend\\\\storage\\\\files\\\\w2_sample_pdf.zip'"
+  },
+  "370761a1dff7450fade7d9f5fdb8c847": {
+    "id": "370761a1dff7450fade7d9f5fdb8c847",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission"
+    },
+    "job_dir": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\370761a1dff7450fade7d9f5fdb8c847",
+    "saved_paths": [
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\370761a1dff7450fade7d9f5fdb8c847\\extracted\\w2_sample_pdf.pdf"
+    ],
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample_pdf.pdf:page:1",
+          "type": "W2",
+          "confidence": 0.722,
+          "reasons": [
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social security number This information is being furnished to the Internal Revenue Service. If you are required to file a tax return, a negigs ence penalty or other sanction OMB No. 1545-0008 may be imposed on you if this pone te taxable and you fail to report it. b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld c Employer's name, ..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2"
+        ],
+        "file_count": 1,
+        "counts": {
+          "W2": 1
+        }
+      },
+      "saved_paths": [
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\370761a1dff7450fade7d9f5fdb8c847\\extracted\\w2_sample_pdf.pdf"
+      ]
+    }
+  },
+  "a061048ec8d148c1997c953be3bde441": {
+    "id": "a061048ec8d148c1997c953be3bde441",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission"
+    },
+    "job_dir": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441",
+    "saved_paths": [
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441\\extracted\\w2_sample.jpg",
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441\\extracted\\w2_sample_pdf.pdf",
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441\\extracted\\paystub-sample-2017.pdf"
+    ],
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample.jpg",
+          "type": "W2",
+          "confidence": 0.886,
+          "reasons": [
+            "form w-2",
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social secur 758-58-5787 b Employer identification number (EIN) number Sate, ine ~ file OMB No. 1545-0008 FAST! Use 1 Wages, tips, other compensation Vail the AS wabatte all writs. govietio 2 Federal income tax withheld resrreres a. c Employer's name, address, and ZIP code 3 Social security wages 4 Social security tax withheld DesignNext 0000.00 4960.00 Katham Dorbosto, Kashiani, Gopa..."
+        },
+        {
+          "file": "w2_sample_pdf.pdf:page:1",
+          "type": "W2",
+          "confidence": 0.722,
+          "reasons": [
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social security number This information is being furnished to the Internal Revenue Service. If you are required to file a tax return, a negigs ence penalty or other sanction OMB No. 1545-0008 may be imposed on you if this pone te taxable and you fail to report it. b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld c Employer's name, ..."
+        },
+        {
+          "file": "paystub-sample-2017.pdf:page:1",
+          "type": "Paystub",
+          "confidence": 0.509,
+          "reasons": [
+            "net pay",
+            "earnings"
+          ],
+          "snippet": "The University of North Carolina at Chapel Hill Pay Group: SPN-SHRA Non-Exempt Business Unit: | UNCCH 103 South Building, Campus Box 9100 Pay Begin Date: 07/10/2017 Advice #: 000000002214873 Chapel Hill, NC 27599-9100 Pay End Date: 07/23/2017 Advice Date: 08/04/2017 TAX DATA: Federal NC State Employee Name Employee ID: 000000000 Tax Status: Single Single 123 Franklin St Department: 260108-WSEE-HR ..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2",
+          "Paystub"
+        ],
+        "file_count": 3,
+        "counts": {
+          "W2": 2,
+          "Paystub": 1
+        }
+      },
+      "saved_paths": [
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441\\extracted\\w2_sample.jpg",
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441\\extracted\\w2_sample_pdf.pdf",
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\a061048ec8d148c1997c953be3bde441\\extracted\\paystub-sample-2017.pdf"
+      ]
+    }
+  },
+  "0cd40568bf1148608fff0debcbe05767": {
+    "id": "0cd40568bf1148608fff0debcbe05767",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission"
+    },
+    "job_dir": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767",
+    "saved_paths": [
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767\\extracted\\w2_sample.jpg",
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767\\extracted\\w2_sample_pdf.pdf",
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767\\extracted\\paystub-sample-2017.pdf"
+    ],
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample.jpg",
+          "type": "W2",
+          "confidence": 0.886,
+          "reasons": [
+            "form w-2",
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social secur 758-58-5787 b Employer identification number (EIN) number Sate, ine ~ file OMB No. 1545-0008 FAST! Use 1 Wages, tips, other compensation Vail the AS wabatte all writs. govietio 2 Federal income tax withheld resrreres a. c Employer's name, address, and ZIP code 3 Social security wages 4 Social security tax withheld DesignNext 0000.00 4960.00 Katham Dorbosto, Kashiani, Gopa..."
+        },
+        {
+          "file": "w2_sample_pdf.pdf:page:1",
+          "type": "W2",
+          "confidence": 0.722,
+          "reasons": [
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social security number This information is being furnished to the Internal Revenue Service. If you are required to file a tax return, a negigs ence penalty or other sanction OMB No. 1545-0008 may be imposed on you if this pone te taxable and you fail to report it. b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld c Employer's name, ..."
+        },
+        {
+          "file": "paystub-sample-2017.pdf:page:1",
+          "type": "Paystub",
+          "confidence": 0.509,
+          "reasons": [
+            "net pay",
+            "earnings"
+          ],
+          "snippet": "The University of North Carolina at Chapel Hill Pay Group: SPN-SHRA Non-Exempt Business Unit: | UNCCH 103 South Building, Campus Box 9100 Pay Begin Date: 07/10/2017 Advice #: 000000002214873 Chapel Hill, NC 27599-9100 Pay End Date: 07/23/2017 Advice Date: 08/04/2017 TAX DATA: Federal NC State Employee Name Employee ID: 000000000 Tax Status: Single Single 123 Franklin St Department: 260108-WSEE-HR ..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2",
+          "Paystub"
+        ],
+        "file_count": 3,
+        "counts": {
+          "W2": 2,
+          "Paystub": 1
+        }
+      },
+      "saved_paths": [
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767\\extracted\\w2_sample.jpg",
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767\\extracted\\w2_sample_pdf.pdf",
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\0cd40568bf1148608fff0debcbe05767\\extracted\\paystub-sample-2017.pdf"
+      ]
+    }
+  },
+  "86350aa122204d72bad5f750ed53525f": {
+    "id": "86350aa122204d72bad5f750ed53525f",
+    "status": "DONE",
+    "metadata": {
+      "loanIntakeId": "LOAN123",
+      "program": "Conventional",
+      "milestone": "Submission"
+    },
+    "job_dir": "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f",
+    "saved_paths": [
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f\\extracted\\w2_sample.jpg",
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f\\extracted\\w2_sample_pdf.pdf",
+      "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f\\extracted\\paystub-sample-2017.pdf"
+    ],
+    "results": {
+      "found": [
+        {
+          "file": "w2_sample.jpg",
+          "type": "W2",
+          "confidence": 0.886,
+          "reasons": [
+            "form w-2",
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social secur 758-58-5787 b Employer identification number (EIN) number Sate, ine ~ file OMB No. 1545-0008 FAST! Use 1 Wages, tips, other compensation Vail the AS wabatte all writs. govietio 2 Federal income tax withheld resrreres a. c Employer's name, address, and ZIP code 3 Social security wages 4 Social security tax withheld DesignNext 0000.00 4960.00 Katham Dorbosto, Kashiani, Gopa..."
+        },
+        {
+          "file": "w2_sample_pdf.pdf:page:1",
+          "type": "W2",
+          "confidence": 0.722,
+          "reasons": [
+            "wage and tax statement",
+            "w-2"
+          ],
+          "snippet": "a Employee's social security number This information is being furnished to the Internal Revenue Service. If you are required to file a tax return, a negigs ence penalty or other sanction OMB No. 1545-0008 may be imposed on you if this pone te taxable and you fail to report it. b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld c Employer's name, ..."
+        },
+        {
+          "file": "paystub-sample-2017.pdf:page:1",
+          "type": "Paystub",
+          "confidence": 0.509,
+          "reasons": [
+            "net pay",
+            "earnings"
+          ],
+          "snippet": "The University of North Carolina at Chapel Hill Pay Group: SPN-SHRA Non-Exempt Business Unit: | UNCCH 103 South Building, Campus Box 9100 Pay Begin Date: 07/10/2017 Advice #: 000000002214873 Chapel Hill, NC 27599-9100 Pay End Date: 07/23/2017 Advice Date: 08/04/2017 TAX DATA: Federal NC State Employee Name Employee ID: 000000000 Tax Status: Single Single 123 Franklin St Department: 260108-WSEE-HR ..."
+        }
+      ],
+      "summary": {
+        "found_types": [
+          "W2",
+          "Paystub"
+        ],
+        "file_count": 3,
+        "counts": {
+          "W2": 2,
+          "Paystub": 1
+        }
+      },
+      "saved_paths": [
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f\\extracted\\w2_sample.jpg",
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f\\extracted\\w2_sample_pdf.pdf",
+        "C:\\Users\\akash\\Desktop\\DocuCheck-POC\\backend\\storage\\files\\86350aa122204d72bad5f750ed53525f\\extracted\\paystub-sample-2017.pdf"
+      ]
+    }
+  }
+}
