@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: docucheck
+    env: python
+    plan: free
+    buildCommand: |
+      apt-get update && apt-get install -y tesseract-ocr poppler-utils
+      python3 -m pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: ./start.sh
+    envVars:
+      - key: MAX_PAGES_PER_JOB
+        value: "8"
+      - key: MAX_BYTES_PER_FILE
+        value: "5242880"   # 5 MB
+      - key: JOB_TTL_SECONDS
+        value: "86400"     # 1 day (used for auto-delete logic if you add it)
